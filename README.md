@@ -51,6 +51,6 @@ List any acknowledgements, libraries, or resources used in the project.
 ## create post interface
 ![image](https://github.com/softyAmir/Dashboard/assets/111384104/a95ba356-737b-4915-9e92-d964d88f0732)
 
-##posts 
+## posts 
 ![image](https://github.com/softyAmir/Dashboard/assets/111384104/a9c18834-39ba-477f-b18c-2fa7b57d861d)
 
