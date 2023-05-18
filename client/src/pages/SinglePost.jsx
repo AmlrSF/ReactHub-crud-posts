@@ -11,6 +11,8 @@ const SinglePost = () => {
   const handelsearch = (e)=>setsearchQuery(e.target.value);
 
   let {id} = useParams();
+
+
   const handeldownload  = (_id, image) =>{
     FileSaver.saveAs(image, `download-${_id}.jpg`);
   }
@@ -46,7 +48,7 @@ const SinglePost = () => {
     fetchSinglePost();
     getReatedposts();
     
-  },[]);
+  },[id]);
   
   const searchPosts = ()=>{
     const searchItems = posts.filter((post)=>{

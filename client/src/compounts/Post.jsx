@@ -19,10 +19,11 @@ const Post = ({ _id, title,image,author, description,date}) => {
             src={image}
         />
         <div className='post-info  bg-[#6469ff] flex justify-center items-center'>
-            <div>
+            <div onClick={handelRoute}>
                 <h3 className='text-white'>{author}</h3>
-                <p className='mt-[-10px] text-white'>{date}</p>
-                <p className='mt-2 text-white'>{title}</p>
+                <p className='mt-[-10px] text-white'>Date in :{date}</p>
+                <p className='mt-2 text-white'>title : {title}</p>
+                <p>Description : {description} </p>
             </div>
 
             <img onClick={()=>handeldownload(_id,image)} src={download} alt="" />
