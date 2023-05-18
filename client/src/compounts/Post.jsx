@@ -23,7 +23,6 @@ const Post = ({ _id, title,image,author, description,date}) => {
                 <h3 className='text-white'>{author}</h3>
                 <p className='mt-[-10px] text-white'>Date in :{date}</p>
                 <p className='mt-2 text-white'>title : {title}</p>
-                <p>Description : {description} </p>
             </div>
 
             <img onClick={()=>handeldownload(_id,image)} src={download} alt="" />
